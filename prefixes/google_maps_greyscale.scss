@@ -1,0 +1,7 @@
+// Make Google maps Grayscale. Add class to iframe
+.map {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
