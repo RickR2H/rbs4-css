@@ -1,0 +1,16 @@
+{
+    "name": "R2H/RBS4-CSS",
+    "type": "library",
+    "description": "Helper classes and mixins for the RBS4 template",
+    "keywords": ["rbs4"],
+    "homepage": "https://r2h.nl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rick Spaan",
+            "email": "rick@r2h.nl",
+            "homepage": "http://r2h.nl",
+            "role": "Developer"
+        }
+    ],
+}
