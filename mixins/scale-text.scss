@@ -1,0 +1,13 @@
+/*
+ * Scale font according to screen width mixin
+ * Use: @include scaletext(25,50,300,1600);
+ *
+ * $minsize: minimum font size on smallest screen
+ * $maxsize: maximum font size on largest screen
+ * $minwidth: minimum width to stop font scaling
+ * $maxwidth: maximum width to stop font scaling
+ */
+ @mixin scaletext($minsize:25,$maxsize:50,$minwidth:768,$maxwidth:1600) {
+	font-size: calc(#{$minsize}px + (#{$maxsize} - #{$minsize}) * ((100vw - #{$minwidth}px) / (#{$maxwidth} - #{$minwidth})));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - #{$minwidth}px) / (#{$maxwidth} - #{$minwidth})));
+}
