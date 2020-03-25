@@ -1,5 +1,5 @@
 {
-    "name": "rbs4css",
+    "name": "rbs4/rbs4-css",
     "type": "library",
     "description": "Helper classes and mixins for the RBS4 template",
     "keywords": ["rbs4"],
